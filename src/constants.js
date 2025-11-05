@@ -37,6 +37,7 @@ import csharpLogo from "./assets/tech_logo/csharp.png";
 import webverseLogo from "./assets/company_logo/webverse_logo.png";
 import fusionLogo from "./assets/company_logo/fusion.jpeg";
 import cctLogo from "./assets/company_logo/cct.jpeg";
+import aiTalentForceLogo from "./assets/company_logo/ai_talent_force.png";
 
 // Education Section Logo's
 import iiitLogo from "./assets/education_logo/iiitdmj_img.jpeg";
@@ -121,6 +122,15 @@ export const experiences = [
     desc: " Engineered responsive web applications using React, Redux, and Context API, optimizing component rendering and integrating RESTful APIs to improve performance, scalability, and user experience.",
     skills: ["ReactJs", "CSS", "Javascript", "Bootstrap", "Figma", "REST API"],
   },
+  {
+    id: 2,
+    img: aiTalentForceLogo,
+    role: "Full-Stack Engineer",
+    company: "AI Talent Force",
+    date: "March 2024 - July 2024",
+    desc: "Contributed as a Full-Stack Engineer to the design and development of the Attendance & Availability Management System using Next.js, React, Node.js, and PostgreSQL, integrating Slack and AI chatbot features for real-time communication and reporting. Enhanced authentication, localization, and deployment workflows by implementing JWT-based security, multilingual (EN-JA) support, and CI/CD pipelines, improving system reliability and global usability.",
+    skills: ["Next.js", "React", "Node.js", "PostgreSQL", "JWT", "Slack API", "AI Chatbot", "CI/CD"],
+  },
 ];
 
 export const education = [
@@ -149,8 +159,8 @@ export const projects = [
     id: 1,
     title: "VAI",
     description:
-"Built VAI, a full-stack voice interface over LLMs, enabling real-time voice queries, response synthesis, session screen recording}, and secure storage using React, Node.js, MongoDB, and AWS S3 with presigned URLs. ",    
- image: csprepLogo,
+      "Built VAI, a full-stack voice interface over LLMs, enabling real-time voice queries, response synthesis, session screen recording}, and secure storage using React, Node.js, MongoDB, and AWS S3 with presigned URLs. ",
+    image: csprepLogo,
     tags: [
       "React JS",
       "Node.js",
@@ -160,17 +170,17 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://vai-frontend.vercelapp/",
+    github: "https://github.com/arghaDEVIL/CSPrep",
+    webapp: "https://vai-frontend.vercel.app/",
   },
   {
     id: 2,
-    title: "",
+    title: "Attendance & Availability Management System",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      "Developed a full-stack Attendance & Availability Management System using Next.js, React, Node.js, and PostgreSQL, enabling attendance tracking, reporting, and Slack + AI Chatbot integration. Implemented secure JWT-based authentication, multilingual UI (English–Japanese), and CI/CD automation, enhancing usability, security, and deployment efficiency.",
+    image: aiTalentForceLogo,
+    tags: ["Next.js", "React", "Node.js", "PostgreSQL", "JWT", "Slack API", "AI Chatbot", "CI/CD"],
+    github: "https://github.com/atf-inc/fall25_intern_a_sales_frontend",
+    webapp: "https://aitf-attendance-management-sys.vercel.app/login",
   },
 ];
